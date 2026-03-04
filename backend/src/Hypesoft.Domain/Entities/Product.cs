@@ -1,4 +1,4 @@
-namespace Hypesoft.Domain.Entitites;
+namespace Hypesoft.Domain.Entities;
 
 public class Product
 {
@@ -11,11 +11,11 @@ public class Product
 
     public Product(string name, string description, decimal price, Guid categoryId, int stockQuantity)
     {
-        this.Id = Guid.NewGuid();
-        this.Name = name;
-        this.Description = description;
-        this.Price = price;
-        this.CategoryId = categoryId;
-        this.StockQuantity = stockQuantity;
+        Id = Guid.NewGuid();
+        Name = name;
+        Description = description;
+        Price = price;
+        CategoryId = categoryId;
+        StockQuantity = stockQuantity;
     }
 }

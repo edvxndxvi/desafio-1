@@ -1,4 +1,4 @@
-namespace Hypesoft.Domain.Entitites;
+namespace Hypesoft.Domain.Entities;
 
 public class Category
 {
@@ -7,7 +7,7 @@ public class Category
 
     public Category(string name)
     {
-        this.Id = Guid.NewGuid();
-        this.Name = name;
+        Id = Guid.NewGuid();
+        Name = name;
     }
 }
