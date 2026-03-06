@@ -5,6 +5,6 @@ namespace Hypesoft.Application.Commands
 {
     public class CreateCategoryCommand : IRequest<Category>
     {
-        public string Name { get; set; }
+        public required string Name { get; set; }
     }
 }
